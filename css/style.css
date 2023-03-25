@@ -1,0 +1,116 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-image: url("/img/tela.jpg");
+    background-size: 98%;
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    width: 400px;
+    height: 580px;
+    border-radius: 6px;
+    margin-top: 100px;
+    background-color: white;
+  
+}
+.tool-bar{
+  padding-left: 10px;
+    margin-top:2px ;
+    width: 393px;
+    height: 37px;
+    font-size: 10px;
+    color: purple;
+    display: flex;
+    align-items: center;
+}
+.tool-bar h1{margin-left: 8px;}
+#modal{
+
+    margin-top: 2px;
+    width: 390px;
+    height: 500px;
+    background-image:url("/img/wpp.jpg");
+    background-size: 100%;
+    border-top: solid;
+    border-width: 1px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+#me {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #me p {
+    border: 1px solid#075E54;
+    padding: 3px;
+    margin: 0;
+    border-radius: 5px;
+    color: whitesmoke;
+    
+  }
+  
+  #me .msg-esq, #me .msg-dir {
+    display: flex;
+    align-items: center;
+    padding: 2px;
+    margin-bottom: 3px;
+  }
+  
+  #me .msg-esq {
+    justify-content: flex-start;
+    margin-top: 6px;
+  }
+  #me .msg-esq p{
+    background-color: #444444;
+    color:whitesmoke;
+    border-radius: 0 8px  8px 8px;
+  }
+  
+  #me .msg-dir {
+    justify-content: flex-end;
+  }
+  #me .msg-dir p {
+    background-color: #075E54;
+    border-radius:  8px 0 8px 8px;
+  }
+.roda{
+    display: flex;
+    margin-top: 4px;
+    width: 380px;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+button{
+    color:rgb(255, 255, 255);
+    background-color: rgb(9, 113, 231);
+    border-width: 1px ;
+    border-radius:20px;
+    align-items: center;
+    display: flex;
+}
+button:hover{
+    background-color: rgb(34, 167, 34);
+    color: white;
+    transition: 1ms;
+    
+}
+input{
+    width: 86%;
+    height:25px ;  
+    border-radius: 5px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
