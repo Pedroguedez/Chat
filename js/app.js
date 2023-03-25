@@ -12,7 +12,7 @@ function start() {
 
   return
 }
-setTimeout(start, 6000)
+setTimeout(start, 2000)
 
 
 //Deixei o evento apenas, pois vi na aula do professor,mas depois vi que nao fazia sentido 
@@ -79,16 +79,20 @@ function analisarMensagem(mensagem) {
     adicionarMensagemDoBot('Você ganhou um desconto de 1%')
     return
   };
-  if (mensagem === "o que o charles e") {
+  if (mensagem === "o que o charles e?") {
     adicionarMensagemDoBot('Charles é um DBA, meio fanta!')
     return
   };
-  if (mensagem === "o que o hahn e") {
+  if (mensagem === "o que o hahn e?") {
     adicionarMensagemDoBot('Pedro Hahn, é muito fanta!')
     return
   };
   if (mensagem === "tudo bem?") {
     adicionarMensagemDoBot('Olá! Estou bem, obrigado por perguntar.<br> Como posso ajudá-lo hoje?')
+    return
+  };
+  if (mensagem === "tudo bem") {
+    adicionarMensagemDoBot('Quem bom, que está bem ai,mas <br>acho que cê quis perguntar "tudo bem?"<br>Estou bem, obrigado por perguntar.<br> Como posso ajudá-lo hoje?')
     return
   };
 
