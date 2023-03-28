@@ -79,14 +79,7 @@ function analisarMensagem(mensagem) {
     adicionarMensagemDoBot('Você ganhou um desconto de 1%')
     return
   };
-  if (mensagem === "o que o charles e?") {
-    adicionarMensagemDoBot('Charles é um DBA, meio fanta!')
-    return
-  };
-  if (mensagem === "o que o hahn e?") {
-    adicionarMensagemDoBot('Pedro Hahn, é muito fanta!')
-    return
-  };
+
   if (mensagem === "tudo bem?") {
     adicionarMensagemDoBot('Olá! Estou bem, obrigado por perguntar.<br> Como posso ajudá-lo hoje?')
     return
