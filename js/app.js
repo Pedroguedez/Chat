@@ -71,7 +71,7 @@ function analisarMensagem(mensagem) {
     return
   };
 
-  if (mensagem === "qual teu nome?") {
+  if (mensagem === "qual seu nome?") {
     adicionarMensagemDoBot('Irineu')
     return
   };
@@ -85,7 +85,7 @@ function analisarMensagem(mensagem) {
     return
   };
   if (mensagem === "tudo bem") {
-    adicionarMensagemDoBot('Quem bom, que está bem ai,mas <br>acho que cê quis perguntar "tudo bem?"<br>Estou bem, obrigado por perguntar.<br> Como posso ajudá-lo hoje?')
+    adicionarMensagemDoBot('Que bom, que está bem ai,mas <br>acho que cê quis perguntar "tudo bem?"<br>Estou bem, obrigado por perguntar.<br> Como posso ajudá-lo hoje?')
     return
   };
 
